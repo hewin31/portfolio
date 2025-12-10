@@ -42,3 +42,20 @@ footer
     width: 25%;
     height: auto; 
 }
+#home-button-tag
+{
+    width: auto;
+    height: auto;
+    margin: -2px;
+    border-width:0px;
+    border-bottom: 0px;
+    padding:0px;
+}
+#home-button-image
+{
+    margin:0%;
+    padding:0%;
+    height: auto;
+
+}
+
