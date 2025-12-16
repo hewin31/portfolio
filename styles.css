@@ -96,15 +96,15 @@ display: block;
   background: none;
   cursor: pointer;
 
-  /* IMPORTANT */
+ 
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .img-btn img {
-  display: block;        /* removes extra whitespace */
-  width: 48px;           /* adjust size if needed */
+  display: block;        
+  width: 48px;           
   height: auto;
   flex:1;
 }

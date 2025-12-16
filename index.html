@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hewin sheraj</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="desktop">
@@ -38,16 +38,16 @@
     </button>
 </div>
 <div class="taskbar">
- <button class="img-btn">
+ <button id="linkedin" class="img-btn" onclick="externallink(this.id)">
     <img src="icons8-linkedin-40.png" alt="Icon 1">
   </button>
 
-  <button class="img-btn">
+  <button id="github" class="img-btn" onclick="externallink(this.id)">
     <img src="github-svgrepo-com.svg" alt="Icon 2">
   </button>
 
 
-  <button class="img-btn">
+  <button id="leetcode" class="img-btn" onclick="externallink(this.id)">
     <img src="leetcode-svgrepo-com.svg" alt="Icon 3">
   </button>
 </div>
